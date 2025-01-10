@@ -1,4 +1,4 @@
-# maru_flutter
+# calendar_flutter
 
 A new Flutter project.
 

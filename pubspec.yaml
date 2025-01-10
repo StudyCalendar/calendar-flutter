@@ -1,0 +1,92 @@
+name: calendar
+description: "Calendar"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State
+  hooks_riverpod: ^2.6.1
+  flutter_hooks: ^0.20.5
+  riverpod_annotation: ^2.6.1
+
+  # Route
+  auto_route: ^9.2.2
+
+  # Screen
+  flutter_screenutil: ^5.9.3
+  loader_overlay: ^4.0.3
+
+  # API
+  retrofit: ^4.4.1
+  dio: ^5.7.0
+
+  # Model
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # Storage
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.2
+
+  # Widget
+  flutter_svg: ^2.0.10+1
+  skeletonizer: ^1.4.2
+  cached_network_image: ^3.4.1
+  webview_flutter: ^4.10.0
+  loading_indicator: ^3.1.1
+
+  # Sliver
+  infinite_scroll_pagination: ^4.0.0
+
+  # Native
+  flutter_native_splash: ^2.4.2
+
+  # Image
+  image_picker: ^1.1.2
+
+  # Util
+  package_info_plus: ^8.1.0
+  url_launcher: ^6.3.1
+  collection: ^1.18.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Build
+  build_runner: ^2.4.13
+
+  # Lint
+  flutter_lints: ^5.0.0
+  custom_lint: ^0.6.8
+  riverpod_lint: ^2.6.1
+
+  # State
+  riverpod_generator: ^2.6.1
+
+  # Route
+  auto_route_generator: ^9.0.0
+
+  # API
+  retrofit_generator: ^9.1.3
+
+  # Model
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+  # Util
+  change_app_package_name: ^1.4.0
+
+  # Generator
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
